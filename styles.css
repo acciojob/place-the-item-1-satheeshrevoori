@@ -1,60 +1,25 @@
 
 /* Your CSS Code here. */
-
-#first {
-	    height:100px;
-	     width:100px;
-	     background-color:red;
-	  order:2
-}
-
-
-#second {
-	    height:100px;
-	     width:100px;
-	     background-color:blue;
-	    order:3;
-}
-
-#wrap {
-	display:flex;
-  justify-content: space-between;
-	 flex-wrap: wrap;
-}
-#last {
-	    height:100px;
-	     width:100px;
-	     background-color:green;
-	     order:1;
-}
-.flex-container {
+.holder {
   display: flex;
   justify-content: space-between;
 	 flex-wrap: wrap
  
 }
 
-#item1 {
+.item {
 	    height:100px;
-	     width:100px;
-	     background-color:red;
-	order:6;
-	
+      width:100px;
 }
 
-
-#item2 {
-	    height:100px;
-	     width:100px;
-	     background-color:blue;
-	order:7;
-	
-}
+	#wrap {
+		 display: flex;
+	   flex-wrap: wrap;
+		justify-content:space-evenly;
+		
+	}
 
 
-#item3 {
-	    height:100px;
-	     width:100px;
-	     background-color:green;
+
 	     
 }
